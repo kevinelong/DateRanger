@@ -56,7 +56,7 @@ var DateRanger = {
         var toDate = new Date(fromDate);
         toDate.setDate(toDate.getDate() + this.periodLengths.WEEK);
         return {fromDate:fromDate, toDate:toDate};
-    },
+    }
 
 
 };//END DateRanger
